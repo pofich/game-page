@@ -209,10 +209,9 @@
   right: 8px;
   transform: rotate(40deg);
 }
-
 .about-game {
   min-height: 1150px;
-  background: radial-gradient(rgba(0, 0, 0, 0) -150%, #080A0B), url(/assets/img/bg-image-about.png);
+  background: radial-gradient(rgba(0, 0, 0, 0) -150%, #080A0B), url(./assets/img/bg-image-about.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,7 +265,7 @@
   display: flex;
   margin: 0 -52px;
   position: absolute;
-  bottom: 60px;
+  bottom: 315px;
   right: 205px;
 }
 .about-game .slider-dots .sld-dot {
@@ -418,7 +417,7 @@
 
 .features {
   min-height: 1040px;
-  background: radial-gradient(circle closest-side at 29% 49%, rgba(0, 0, 0, 0) 47%, #080A0B 187%), url(/assets/img/bg-image-features.png);
+  background: radial-gradient(circle closest-side at 29% 49%, rgba(0, 0, 0, 0) 47%, #080A0B 187%), url(./assets/img/bg-image-features.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -508,7 +507,7 @@
 
 .requirements {
   min-height: 1040px;
-  background: radial-gradient(circle closest-side at 70% 52%, rgba(0, 0, 0, 0) 47%, #080A0B 187%), url(/assets/img/bg-image-requirements.png);
+  background: radial-gradient(circle closest-side at 70% 52%, rgba(0, 0, 0, 0) 47%, #080A0B 187%), url(./assets/img/bg-image-requirements.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -528,7 +527,7 @@
   position: relative;
   height: 403px;
   width: 573px;
-  background: url(/assets/img/border-table.svg) center/contain no-repeat;
+  background: url(./assets/img/border-table.svg) center/contain no-repeat;
 }
 .requirements .requirements-table {
   position: absolute;
@@ -553,7 +552,7 @@
 
 .quotes {
   height: 1040px;
-  background: url(/assets/img/bg-image-quotes.png);
+  background: url(./assets/img/bg-image-quotes.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -600,7 +599,7 @@
 .quotes .quotes-box .press-quotes::after {
   content: "";
   position: absolute;
-  background: url(/assets/img/twitter.png) center/contain no-repeat;
+  background: url(./assets/img/twitter.png) center/contain no-repeat;
   width: 18px;
   height: 18px;
   top: 15px;
@@ -651,7 +650,7 @@
 
 .newsletter {
   min-height: 700px;
-  background-image: radial-gradient(circle closest-side at 50% 36%, rgba(0, 0, 0, 0) 65%, #080A0B 200%), url(/assets/img/newsletter-img.png);
+  background-image: radial-gradient(circle closest-side at 50% 36%, rgba(0, 0, 0, 0) 65%, #080A0B 200%), url(./assets/img/newsletter-img.png);
   background-position: 0px 0px;
   background-size: 445px 694px;
   background-repeat: no-repeat;
@@ -714,7 +713,7 @@ footer .navbar .block-icons {
 footer .navbar .block-icons .icon {
   height: 33px;
   width: 33px;
-  background-image: url(/assets/img/social.png);
+  background-image: url(./assets/img/social.png);
   background-repeat: no-repeat;
 }
 footer .navbar .block-icons .icon:nth-child(1) {
@@ -763,6 +762,9 @@ footer .privacy-policy .some-links a:not(:last-child) {
     display: flex;
     flex-direction: column;
   }
+  .about-game .slider-dots {
+    bottom: 60px;
+}
   .about-game .about-text,
   .about-game .about-slider {
     width: 100%;
@@ -912,7 +914,7 @@ footer .privacy-policy .some-links a:not(:last-child) {
   }
   .features {
     min-height: 980px;
-    background: radial-gradient(circle closest-side at 47% 22%, rgba(0, 0, 0, 0) 47%, #080A0B 204%), url(/assets/img/bg-image-features.png);
+    background: radial-gradient(circle closest-side at 47% 22%, rgba(0, 0, 0, 0) 47%, #080A0B 204%), url(./assets/img/bg-image-features.png);
     background-position: -371px 75px;
   }
   .features .container {
