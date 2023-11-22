@@ -28,7 +28,7 @@
 }
 .first-screen {
   height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(255, 181, 72, 0), rgba(52, 44, 29, 0.8039215686) 90%, #08090A), url(/assets/img/main-screen.png);
+  background-image: linear-gradient(to bottom, rgba(255, 181, 72, 0), rgba(52, 44, 29, 0.8039215686) 90%, #08090A), url("./assets/img/main-screen.png");
 }
 .first-screen .dropdown {
   margin: 0 23px;
